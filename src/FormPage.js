@@ -25,7 +25,7 @@ const FormPage = ({ onNextPage }) => {
         <div className="w-50">
           <form onSubmit={handleSubmit} className="p-4 border rounded bg-light">
             <div className="mb-4 text-center">
-              <p className="h3">Who Do You Choose To Pay For?</p>
+              <p className="h3">¿Por quién eliges pagar?</p>
             </div>
             <div className="form-check mb-3">
               <input 
@@ -38,7 +38,7 @@ const FormPage = ({ onNextPage }) => {
                 required 
               />
               <label className="form-check-label" htmlFor="myself">
-                <b>Myself</b>
+                <b>Mí mismo</b>
               </label>
             </div>
             <div className="form-check mb-4">
@@ -52,11 +52,11 @@ const FormPage = ({ onNextPage }) => {
                 required 
               />
               <label className="form-check-label" htmlFor="forSomeone">
-                <b>For Someone</b>
+                <b>Para alguien</b>
               </label>
             </div>
             <div className="text-center">
-              <button type="submit" className="btn btn-primary btn-lg">Next</button>
+              <button type="submit" className="btn btn-primary btn-lg">Próximo</button>
             </div>
           </form>
         </div>
