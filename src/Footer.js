@@ -11,15 +11,15 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h3>Universidad DePaul</h3>
+            <h3>DePaul University</h3>
             <br />
             <h6>
               1 E. Jackson Blvd.
               <br />
-              Chicago, IL 60604
+              Chicago, IL 60604, USA
             </h6>
             <p>
-              © 2001 - 2024 Universidad DePaul. Reservados todos los derechos.
+              © 2001 - 2024 DePaul University. All rights reserved.
             </p>
           </div>
         </div>
