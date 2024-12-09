@@ -9,7 +9,7 @@ const Navbar = () => {
       };
       
   return (
-    <nav className="navbar mb-4" style={navbarStyle}>
+    <nav className="navbar mb-4 fixed-top" style={navbarStyle}>
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src={img1} alt="Bootstrap" class="img-fluid" />
